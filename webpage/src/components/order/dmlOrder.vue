@@ -44,7 +44,7 @@
                 </FormItem>
 
                 <FormItem label="工单说明:" prop="text">
-                  <Input v-model="formItem.text" type="textarea" :rows="12"  placeholder="请输入"></Input>
+                  <Input v-model="formItem.text" type="textarea" :rows="5"  placeholder="请输入"></Input>
                 </FormItem>
 
                 <FormItem label="指定审核人:" prop="assigned">
