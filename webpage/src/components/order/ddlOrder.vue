@@ -56,7 +56,7 @@ p {
                 <Button type="error" @click="canel()">重置</Button>
               </Form-item>
               <FormItem label="工单提交说明:" prop="text">
-                <Input v-model="formItem.text" placeholder="请输入工单说明"></Input>
+                <Input v-model="formItem.text" type="textarea" :rows="5"   placeholder="请输入工单说明"></Input>
               </FormItem>
               <FormItem label="指定审核人:" prop="assigned">
                 <Select v-model="formItem.assigned" filterable transfer>
